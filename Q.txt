@@ -1,0 +1,20 @@
+Q1).Write a C program that creates two threads. Each thread should print 
+a message indicating it is running. The main thread should wait for both 
+threads to finish before exiting.
+
+Q2).Write a program to create 5 threads. Each thread should print its thread
+ID and then exit. The main thread should join all threads and print a 
+completion message.
+use pthread_self()-to get id 
+
+Q3).Write a program that creates a thread which prints numbers from 1 to 10 
+with a 1-second delay between each number.The main thread should wait for 
+this thread to finish.
+
+Q4).Create two threads where one thread increments a global counter 100 times
+and the other thread decrements the same counter 100 times. 
+Print the final value of the counter after both threads finish.
+
+Q5)Implement a thread function that takes an integer argument, squares it,
+and returns the result to the main thread using pthread_exit and pthread_join.
+
